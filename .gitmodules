@@ -1,6 +1,0 @@
-[submodule "project/googletest"]
-	path = project/googletest
-	url = https://github.com/google/googletest.git
-[submodule "project/gray-scott-sim"]
-	path = project/gray-scott-sim
-	url = https://github.com/scicomp-durham/gray-scott-sim.git
