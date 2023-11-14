@@ -21,7 +21,7 @@ jobs:
       run: |
         mkdir -p build  
         cd build
-        cmake ../gray-scott-sim  
+        cmake ../project/gray-scott-sim  
         cmake --build .
     - name: Test
       run: |
