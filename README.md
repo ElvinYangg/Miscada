@@ -9,14 +9,14 @@ This program builds on the Initial Gray-Scott simulation.
 
 filetree
 ├── /project/
-|  ├── build
-|  ├── googletest
-|  ├── /gray-scott-sim/
-│  |   ├── CMakeLists.txt
-│  |   ├── gs.cpp
-│  |   ├── simulation_params.h
-│  |   ├── /tests/
-│  |   |   ├── test_gs.cpp
+│   ├── build
+│   ├── googletest
+│   ├── /gray-scott-sim/
+│   │   ├── CMakeLists.txt
+│   │   ├── gs.cpp
+│   │   ├── simulation_params.h
+│   │   ├── /tests/
+│   │   │   ├── test_gs.cpp
 └── README.md
 
 ## Testing Framework
