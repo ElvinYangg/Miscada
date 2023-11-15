@@ -7,7 +7,7 @@ This program builds on the Initial Gray-Scott simulation.
 
 ## Project Structure
 
-Structure 
+filetree
 ├── /project/
 |  ├── build
 |  ├── googletest
@@ -17,10 +17,6 @@ Structure
 │  |   ├── simulation_params.h
 │  |   ├── /tests/
 │  |   |   ├── test_gs.cpp
-│  ├── 
-│  ├── simple_test.cpp
-├── /third/
-│  
 └── README.md
 
 ## Testing Framework
