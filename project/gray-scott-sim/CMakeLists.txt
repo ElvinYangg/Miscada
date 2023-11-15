@@ -11,6 +11,7 @@ add_subdirectory(../googletest googletest)
 add_library(gs_lib gs.cpp)
 
 add_executable(GrayScottSimulator gs.cpp)
+target_link_libraries(GrayScottSimulator PRIVATE gs_lib)
 
 add_executable(GSTests tests/test_gs.cpp)
 target_link_libraries(GSTests PRIVATE gs_lib gtest_main)
