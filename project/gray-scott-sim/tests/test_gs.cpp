@@ -37,9 +37,9 @@ TEST(GSTest, SimulationWithZeroUV) {
         std::fill(row.begin(), row.end(), 0.0);
     }
 
-    simulateStep(); // 运行一步模拟
+    simulateStep(); 
 
-    // 检查 u 是否增加和 v 是否保持不变
+    
     bool u_increased = false, v_unchanged = true;
     for (const auto& row : u) {
         for (const auto& element : row) {
