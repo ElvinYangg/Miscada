@@ -1,4 +1,4 @@
-# Gray-Scott-Sim-system
+# Gray-Scott Simulation
 ## Background
 Gray Scott is a reaction-diffusion system, essentially, it is used to model a system that includes a reaction and a diffusion. 
 
