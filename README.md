@@ -32,7 +32,7 @@ Finally include google test headers in the unit test file by #include <gtesst/gt
 Three tests have been implemented in this Gray-Scott test simulation
 
 - The first one is to check that the type of the model parameters (F , k) matches that of the element type of the u and v vectors.
-  - This has been done by asserting a google test to check whether the declare type of model parameter F matches that of the element type of u and v vectors. We call on decltype from the C++ directory, which      essentially compares the type(F) against the type of a <u> element. We then use this in std::is_same to return a tru or false output to our comparison. This is done by using the EXPECT_TRUE macro provided     by the Google Test Framework.
+  - This has been done by asserting a google test to check whether the declare type of model parameter F matches that of the element type of u and v vectors. We call on decltype from the C++ directory, which      essentially compares the type(F) against the type of a <u> element. We then use this in std::is_same to return a tru or false output to our comparison. This is done by using the EXPECT_TRUE macro             provided by the Google Test Framework.
 - The second test is to check that the variables u and v are the same size.
   - This has been done by asserting a google test to check whether the variables u and v are the same size. We first compute the size of u, then compute the size of v, and then we essentially comapre and         check whether they are the same. For this test, we use EXPECT_EQ from the Google Test Framework.
 - The final test is to check whether the simulation provides a mathematically correct answer to u=0 and v=0.
@@ -42,7 +42,6 @@ Three tests have been implemented in this Gray-Scott test simulation
   - We use the EXPECT_TRUE macro provided by the Google Test Framework to assert the test, where if neither have changed, we consider the test outcome to be a failure. 
 
 ## Installation Guide
-
 To run this project, you would need:
 - CMake
 - A C++ compiler such as clang or gcc.
@@ -70,6 +69,7 @@ Follow the listed steps to build the project using CMake:
    make
    
 ## Continuous Integration (CI)
+
 
 
 
