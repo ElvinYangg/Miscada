@@ -34,9 +34,12 @@ Three tests have been implemented in this Gray-Scott test simulation
 - The first one is to check that the type of the model parameters (F , k) matches that of the element type of the u and v vectors.
   - This has been done by asserting a google test to check whether the declare type of model parameter F matches that of the element type of u and v vectors. We call on decltype from the C++ directory, which      essentially compares the type(F) against the type of a <u> element. We then use this in std::is_same to return a tru or false output to our comparison. This is done by using the EXPECT_TRUE macro provided     by the Google Test Framework.
 - The second test is to check that the variables u and v are the same size.
-  - This has been done by asserting a google test to check whether the variables u and v are the same size. We first compute the size of u, then compute the size of v, and then we essentially comapre and          check whether they are the same. For this test, we use EXPECT_EQ from the Google Test Framework.
+  - This has been done by asserting a google test to check whether the variables u and v are the same size. We first compute the size of u, then compute the size of v, and then we essentially comapre and         check whether they are the same. For this test, we use EXPECT_EQ from the Google Test Framework.
 - The final test is to check whether the simulation provides a mathematically correct answer to u=0 and v=0.
-  - This has been done by 
+  - We start by iterating over element of u and v and making it 0.0.
+  - We then simulate a step using the function defined a gs.cpp
+  - We then declare two boolean variables to track and ensure the values of u and v are not changed. As a part of the test we also check for cases where u > 0.0 or cases where value of a v element is not         0.0. If there exists such a case, the 2 booleans declared previously are changed to be True.
+  - We use the EXPECT_TRUE macro provided by the Google Test Framework to assert the test, where if neither have changed, we consider the test outcome to be a failure. 
 
 ## Installation Guide
 
