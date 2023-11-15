@@ -83,6 +83,51 @@ This project has been built to run on the latest-version of Ubuntu.
 
 Optionally, if you are using an IDE or environment that is Github CodeQL compatible, you may get additional functionality such as code analysis and the ability to scan for vulnerabilities in the codebase. (https://github.com/github/codeql)
 
+## Contribution Guidelines
+We encourage community participation in our efforts to build this Gray-Scott simulation, and are interested in learning about prospects and ideas that may not have been implemented here. Whether you have ideas on an eddicient build system, or bugs and shortcomings of our code, or just feature improvements, our team values any input. 
+To contribute to this project, please follow these steps:
+
+    Fork the repository on GitHub.
+
+    Clone your forked repository to your local machine:
+    bash
+
+git clone https://github.com/your-username/your-project.git
+```
+
+Create a new branch for your contribution:
+bash
+
+git checkout -b feature/your-feature
+```
+
+Replace "your-feature" with a descriptive name for your contribution.
+
+Make your desired changes or additions to the codebase.
+
+Commit your changes with a clear and descriptive commit message:
+bash
+
+git commit -m "Add feature: your feature description"
+```
+
+Push your changes to your forked repository:
+bash
+
+git push origin feature/your-feature
+```
+
+Open a pull request (PR) against the original repository's main branch.
+
+    Clearly describe the purpose of the PR and the changes you've made.
+    Make sure your code follows the project's coding conventions and guidelines.
+    Include any necessary documentation or tests for your changes.
+
+Wait for feedback and participate in any discussions related to your PR.
+
+    Address any requested changes or feedback promptly.
+
+Once your changes have been approved, they will be merged into the main repository.
 
 
 
@@ -98,44 +143,3 @@ Optionally, if you are using an IDE or environment that is Github CodeQL compati
 
 
 
-
-
-## Installation
-* 1.Download source code from github repository and then compile it by Cmake
-  * required environment:
-   	* C++ Environment at least C++11
-   	* Cmake Version 3.15 or above
-    * C++ compiler ie. GCC or Visual Studio Compiler
-  * using Command Line to compile  
-    * switch to the directory of the source code,where `download-dir` is the dir of the source code  
-    `cd download—dir`  
-    * create build diretory  
-    `mkdir build`
-    * switch to build directory  
-    `cd build`
-    * Cmake link library  
-    `cmake ..`
-    * compile   
-     `make`  
-    * execute program by command:
-      `./gray-scot-sim`
-* 3.Download the released version of the executable file(exe) from the github and then run it on windows system
-
-## Usage
-when running the program,the following parameters could be inputed to adjust the result(optional).  
-* Du:Diffusion rate of U  
-* Dv:Diffusion rate of V  
-* F:Feed rate  
-* k:Kill rate  
-* threshold:  
-When runing the pragram, the following parameters could be added by this order after the running command to custom your result
-## Return
-Rather than printing the result, the program write the result into Files:`output_*.vtk`,where `*` represent the number of iteration: only integer multiple of 100
-## CI
-
-## Test cases
-There are several tests we put out before writing ReadME file:
-* we Checked that the type of the model parameters (F, k) matches that of the element type of the u and v vectors.
-* we Checked that the variables u and v are the same size.
-* we Checked that the simulation produces the mathematically correct answer when u = 0 and v = 0.
-## Contributing
