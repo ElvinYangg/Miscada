@@ -11,13 +11,13 @@ This is the structure of the project directory:
 
 - `/project/`: The root directory of the project.
   - `build`: Directory for build artifacts.
-  - `googletest`: Directory for Google Test framework.
+  - `googletest`: Google Test framework.
   - `/gray-scott-sim/`: Directory for the Gray-Scott simulation code.
-    - `CMakeLists.txt`: CMake configuration file.
-    - `gs.cpp`: Main implementation file for the Gray-Scott simulation.
-    - `simulation_params.h`: Header file containing simulation parameters.
-    - `/tests/`: Directory for unit tests.
-      - `test_gs.cpp`: Unit test file for the Gray-Scott simulation.
+    - `CMakeLists.txt`: CMake file.
+    - `gs.cpp`: Implementation of Gray-Scott Simulation.
+    - `simulation_params.h`: Simulation parameters 
+    - `/tests/`: Tests directory
+      - `test_gs.cpp`:  Test file for the Gray-Scott simulation.
 - `README.md`: The README file containing project documentation and instructions.
 
 ## Testing Framework
