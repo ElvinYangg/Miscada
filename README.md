@@ -7,6 +7,28 @@ This program builds on the Initial Gray-Scott simulation.
 
 ## Project Structure
 
+## Testing Framework
+
+## Tests
+
+## Installation Guide
+
+## Build
+
+## Continuous Integration (CI)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
 * 1.Download source code from github repository and then compile it by Cmake
