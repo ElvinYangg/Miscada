@@ -1,16 +1,10 @@
 # Gray-Scott-Sim-system
 ## Background
-the whole program is to simulate the process of the difussion. (rm)
 Gray Scott is a reaction-diffusion system, essentially, it is used to model a system that includes a reaction and a diffusion. 
 This program builds on the Initial Gray-Scott simulation.
-## Install
-* 1.Docker install  
-  `please make sure u have downloaded and installed docker`
-  * clone the repo by git command `git clone `
-  * switch to the repo dir `cd dir` where `dir` is the dir of the sourcecode
-  * docker run the image `docker run -t gray-scott-sim .`
-  * check the result
-* 2.Download source code from github repository and then compile it by Cmake
+
+## Installation
+* 1.Download source code from github repository and then compile it by Cmake
   * required environment:
    	* C++ Environment at least C++11
    	* Cmake Version 3.15 or above
