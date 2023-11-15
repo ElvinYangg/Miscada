@@ -1,7 +1,10 @@
 # Gray-Scott-Sim-system
 ## Background
 Gray Scott is a reaction-diffusion system, essentially, it is used to model a system that includes a reaction and a diffusion. 
-This program builds on the Initial Gray-Scott simulation.
+
+
+##Project Introduction
+This program builds on the Initial Gray-Scott simulation. 
 
 ## Installation
 * 1.Download source code from github repository and then compile it by Cmake
