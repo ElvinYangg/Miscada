@@ -43,6 +43,11 @@ Three tests have been implemented in this Gray-Scott test simulation
 
 ## Installation Guide
 
+To run this project, you would need:
+- CMake
+- A C++ compiler such as clang or gcc.
+- Optionally, you may use git for version control. 
+
 ## Build
 
 ## Continuous Integration (CI)
