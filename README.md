@@ -1,6 +1,8 @@
 # Gray-Scott-Sim-system
 ## Background
-the whole program is to simulate the process of the difussion.
+the whole program is to simulate the process of the difussion. (rm)
+Gray Scott is a reaction-diffusion system, essentially, it is used to model a system that includes a reaction and a diffusion. 
+This program builds on the Initial Gray-Scott simulation.
 ## Install
 * 1.Docker install  
   `please make sure u have downloaded and installed docker`
