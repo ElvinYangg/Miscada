@@ -29,6 +29,11 @@ This project uses the Google Test framework. (https://github.com/google/googlete
   
 Finally include google test headers in the unit test file by #include <gtesst/gtest.h>
 ## Tests
+Three tests have been implemented in this Gray-Scott test simulation
+
+- The first one is to check that the type of the model parameters (F , k) matches that of the element type of the u and v vectors.
+  - This has been done by asserting a google test to check whether the declare type of model parameter F matches that of the element type of u and v vectors. We call on decltype from the C++ directory, which      essentially compares the type(F) against the type of a <u> element. We then use this in std::is_same to return a tru or false output to our comparison. This is done by using the EXPECT_TRUE macro provided     by the Google Test Framework.
+- The second test is to check that the variables u and v are the same size. 
 
 ## Installation Guide
 
