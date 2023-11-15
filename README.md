@@ -75,6 +75,14 @@ This project uses Github actions to implement continuous integration. It essenti
 Everytime a push or pull request is made, it triggers the workflow on the main branch. 
 ### Compatibility/Environment
 This project has been built to run on the latest-version of Ubuntu. 
+### Steps
+1. Clone the repository or fetch the code from GitHub.
+2. Ensure you have CMake installed.
+3. Build the project.
+4. Run through the tests.
+
+Optionally, if you are using an IDE or environment that is Github CodeQL compatible, you may get additional functionality such as code analysis and the ability to scan for vulnerabilities in the codebase. (https://github.com/github/codeql)
+
 
 
 
