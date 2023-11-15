@@ -3,7 +3,6 @@
 #include "simulation_params.h"
 
 extern double Du, Dv, F, k, threshold;
-extern const int numIterations;
 extern std::vector<std::vector<double>> u, v;
 extern void init();
 extern void simulateStep();
