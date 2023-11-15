@@ -87,56 +87,14 @@ Optionally, if you are using an IDE or environment that is Github CodeQL compati
 We encourage community participation in our efforts to build this Gray-Scott simulation, and are interested in learning about prospects and ideas that may not have been implemented here. Whether you have ideas on an eddicient build system, or bugs and shortcomings of our code, or just feature improvements, our team values any input. 
 To contribute to this project, please follow these steps:
 
-
-
-git clone https://github.com/your-username/your-project.git
-```
-
-Create a new branch for your contribution:
-bash
-
-git checkout -b feature/your-feature
-```
-
-Replace "your-feature" with a descriptive name for your contribution.
-
-Make your desired changes or additions to the codebase.
-
-Commit your changes with a clear and descriptive commit message:
-bash
-
-git commit -m "Add feature: your feature description"
-```
-
-Push your changes to your forked repository:
-bash
-
-git push origin feature/your-feature
-```
-
-Open a pull request (PR) against the original repository's main branch.
-
-    Clearly describe the purpose of the PR and the changes you've made.
-    Make sure your code follows the project's coding conventions and guidelines.
-    Include any necessary documentation or tests for your changes.
-
-Wait for feedback and participate in any discussions related to your PR.
-
-    Address any requested changes or feedback promptly.
-
-Once your changes have been approved, they will be merged into the main repository.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Fork the repository on GitHub.
+- Clone your forked repository to your local machine:
+- Create a new branch for your contribution:
+- Make your desired changes or additions to the codebase.
+- Commit your changes with a clear and descriptive commit message:
+- Push your changes to your forked repository.
+- Open a pull request against the original repository's main branch.
+  - Clearly describe the purpose of the PR and the changes you've made.
+  - Make sure your code follows the project's coding conventions and guidelines.
+  - Include any necessary documentation or tests for your changes.
+- Once approved, these changes will then be made part of our project. 
