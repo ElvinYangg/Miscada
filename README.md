@@ -68,9 +68,7 @@ Follow the listed steps to build the project using CMake:
  - Finally build by
    ```
    make
-  
-
-
+   
 ## Continuous Integration (CI)
 
 
