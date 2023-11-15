@@ -67,7 +67,6 @@ Follow the listed steps to build the project using CMake:
  - Finally build by
    ```
    make
-   
 ## Continuous Integration (CI)
 This project uses Github actions to implement continuous integration. It essentially works by scanning the commits, running it through the build process and running the unit tests. 
 
