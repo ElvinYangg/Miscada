@@ -20,7 +20,7 @@ This program builds on the Initial Gray-Scott simulation.
 - `README.md`: The README file containing project documentation and instructions.
 
 ## Testing Framework
-
+This project uses the Google Test framework. (https://github.com/google/googletest/tree/main)
 ## Tests
 
 ## Installation Guide
