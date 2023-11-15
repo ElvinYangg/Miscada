@@ -7,17 +7,18 @@ This program builds on the Initial Gray-Scott simulation.
 
 ## Project Structure
 
-filetree
-├── /project/
-│   ├── build
-│   ├── googletest
-│   ├── /gray-scott-sim/
-│   │   ├── CMakeLists.txt
-│   │   ├── gs.cpp
-│   │   ├── simulation_params.h
-│   │   ├── /tests/
-│   │   │   ├── test_gs.cpp
-└── README.md
+This is the structure of the project directory:
+
+- `/project/`: The root directory of the project.
+  - `build`: Directory for build artifacts.
+  - `googletest`: Directory for Google Test framework.
+  - `/gray-scott-sim/`: Directory for the Gray-Scott simulation code.
+    - `CMakeLists.txt`: CMake configuration file.
+    - `gs.cpp`: Main implementation file for the Gray-Scott simulation.
+    - `simulation_params.h`: Header file containing simulation parameters.
+    - `/tests/`: Directory for unit tests.
+      - `test_gs.cpp`: Unit test file for the Gray-Scott simulation.
+- `README.md`: The README file containing project documentation and instructions.
 
 ## Testing Framework
 
