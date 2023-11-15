@@ -87,10 +87,7 @@ Optionally, if you are using an IDE or environment that is Github CodeQL compati
 We encourage community participation in our efforts to build this Gray-Scott simulation, and are interested in learning about prospects and ideas that may not have been implemented here. Whether you have ideas on an eddicient build system, or bugs and shortcomings of our code, or just feature improvements, our team values any input. 
 To contribute to this project, please follow these steps:
 
-    Fork the repository on GitHub.
 
-    Clone your forked repository to your local machine:
-    bash
 
 git clone https://github.com/your-username/your-project.git
 ```
