@@ -15,7 +15,7 @@ TEST(GSTest, CheckParameterTypes) {
     EXPECT_TRUE((std::is_same<decltype(u)::value_type::value_type, double>::value));
     EXPECT_TRUE((std::is_same<decltype(v)::value_type::value_type, double>::value));
 }
-
+// second test: test to check the size of u and v.
 TEST(GSTest, CheckSizeConsistency) {
     init(); 
     EXPECT_EQ(u.size(), width);
