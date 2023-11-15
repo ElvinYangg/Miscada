@@ -21,6 +21,12 @@ This program builds on the Initial Gray-Scott simulation.
 
 ## Testing Framework
 This project uses the Google Test framework. (https://github.com/google/googletest/tree/main)
+- Clone the google test repository from github.
+- Navigate to the google test repository and create a build directory by typing mkdir build
+- Go to the build directory by typing cd build
+- Now type cmake.. to generate the build files.
+- Build google test using make
+Finally include google test headers in the unit test file by #include <gtesst/gtest.h>
 ## Tests
 
 ## Installation Guide
