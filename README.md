@@ -49,6 +49,13 @@ To run this project, you would need:
 - Optionally, you may use git for version control. 
 
 ## Build
+CMake may be used to build this project, as it ensures simplicity and is cross-platform compatible. 
+Before you begin, ensure that you have the following prerequisites installed on your system:
+
+    CMake (version 3.0 or later)
+    Compiler (compatible with your project's code)
+Follow the listed steps to build the project using CMake:
+- Clone the repository from github
 
 ## Continuous Integration (CI)
 
