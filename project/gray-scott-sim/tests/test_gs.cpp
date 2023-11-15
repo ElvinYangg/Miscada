@@ -28,37 +28,36 @@ TEST(GSTest, CheckSizeConsistency) {
     }
 }
 
-TEST(GSTest, SimulationWithZeroUV) {
-    
-    for (auto &row : u) {
-        std::fill(row.begin(), row.end(), 0.0);
-    }
-    for (auto &row : v) {
-        std::fill(row.begin(), row.end(), 0.0);
-    }
+//According to "dU = Du * laplaceU - a * b * b + F * (1.0 - a);" the value of F*(1.0-a) is not equal to 0, so dU changes every iteration, and thus nextU[x][y] keeps changing.
+//According to "dV = Dv * laplaceV + a * b * b - (F + k) * b;", this equation is always equal to 0, so each element of nextV[x][y] will also always be equal to 0
+TEST(SimulationTest, ZeroInitialConditionTest) {
+    // Initialise u and v to all zeros
+    std::vector<std::vector<double>> u(width, std::vector<double>(height, 0.0));
+    std::vector<std::vector<double>> v(width, std::vector<double>(height, 0.0));
+    for (int iteration = 0; iteration < numIterations; ++iteration) {
 
-    simulateStep(); 
+    // Run the simulation
+    simulateStep();  // Assuming the simulateStep() function uses the global variables u and v
 
-    
-    bool u_increased = false, v_unchanged = true;
-    for (const auto& row : u) {
-        for (const auto& element : row) {
-            if (element > 0.0) {
-                u_increased = true;
-            }
-        }
-    }
+    // Check that all elements of v are still 0.
     for (const auto& row : v) {
         for (const auto& element : row) {
-            if (element != 0.0) {
-                v_unchanged = false;
-            }
+            EXPECT_DOUBLE_EQ(element, 0.0) << "v should remain 0";
         }
     }
 
-    EXPECT_TRUE(u_increased);
-    EXPECT_TRUE(v_unchanged);
+    // Check if the four boundaries of u are 0
+    for (int x = 0; x < width; ++x) {
+        EXPECT_DOUBLE_EQ(u[x][0], 0.0) << "Top border of u should remain 0";
+        EXPECT_DOUBLE_EQ(u[x][height - 1], 0.0) << "Bottom border of u should remain 0";
+    }
+    for (int y = 0; y < height; ++y) {
+        EXPECT_DOUBLE_EQ(u[0][y], 0.0) << "Left border of u should remain 0";
+        EXPECT_DOUBLE_EQ(u[width - 1][y], 0.0) << "Right border of u should remain 0";
+    }
 }
+}
+
 
 
 
