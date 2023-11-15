@@ -7,7 +7,6 @@ This program builds on the Initial Gray-Scott simulation.
 
 ## Project Structure
 
-This is the structure of the project directory:
 
 - `/project/`: The root directory of the project.
   - `build`: Directory for build artifacts.
