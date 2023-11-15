@@ -26,6 +26,7 @@ This project uses the Google Test framework. (https://github.com/google/googlete
 - Go to the build directory by typing cd build
 - Now type cmake.. to generate the build files.
 - Build google test using make
+  
 Finally include google test headers in the unit test file by #include <gtesst/gtest.h>
 ## Tests
 
