@@ -8,7 +8,7 @@ extern void init();
 extern void simulateStep();
 extern void writeVTKFile(int iteration);
 extern double countElementsAboveThreshold(double threshold);
-
+// first test: Test to check whether the parameter types of elements in u and v match F and k. Done by calling on google test macro and comapring declare type
 TEST(GSTest, CheckParameterTypes) {
     EXPECT_TRUE((std::is_same<decltype(F), double>::value));
     EXPECT_TRUE((std::is_same<decltype(k), double>::value));
