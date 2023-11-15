@@ -63,7 +63,7 @@ Follow the listed steps to build the project using CMake:
    cd build     // charge to build directory
  - Generate build files by
    ```
-   cmake ..
+   cmake ../gray-scott-sim 
  - Finally build by
    ```
    make
