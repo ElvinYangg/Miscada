@@ -69,6 +69,13 @@ Follow the listed steps to build the project using CMake:
    make
    
 ## Continuous Integration (CI)
+This project uses Github actions to implement continuous integration. It essentially works by scanning the commits, running it through the build process and running the unit tests. 
+
+### Trigger
+Everytime a push or pull request is made, it triggers the workflow on the main branch. 
+### Compatibility/Environment
+This project has been built to run on the latest-version of Ubuntu. 
+
 
 
 
