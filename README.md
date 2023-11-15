@@ -7,6 +7,22 @@ This program builds on the Initial Gray-Scott simulation.
 
 ## Project Structure
 
+Structure 
+├── /project/
+|  ├── build
+|  ├── googletest
+|  ├── /gray-scott-sim/
+│  |   ├── CMakeLists.txt
+│  |   ├── gs.cpp
+│  |   ├── simulation_params.h
+│  |   ├── /tests/
+│  |   |   ├── test_gs.cpp
+│  ├── 
+│  ├── simple_test.cpp
+├── /third/
+│  
+└── README.md
+
 ## Testing Framework
 
 ## Tests
