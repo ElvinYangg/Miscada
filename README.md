@@ -1,10 +1,8 @@
 # Gray-Scott Simulation
 ## Background
-Gray Scott is a reaction-diffusion system, essentially, it is used to model a system that includes a reaction and a diffusion. 
+Gray Scott is a reaction-diffusion system, essentially, it is used to model a system that includes a reaction and a diffusion. In the Gray-Scott model, the system is described by two variables,these variables represent the densities or concentrations of chemical species involved in a reaction. The model assumes that the substrate is converted into the activator through an autocatalytic reaction and that the activator can degrade back into the substrate. The underlying dynamics of the model are governed by a set of partial differential equations that describe the diffusion and reaction processes. The equations involve parameters such as the diffusion rates of the substances and the reaction rates. These parameters control the behavior of the system and determine the patterns that emerge.
 
 This program builds on the Initial Gray-Scott simulation. 
-
-
 ## Project Structure
 
 
