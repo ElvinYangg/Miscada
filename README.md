@@ -99,4 +99,10 @@ To contribute to this project, please follow these steps:
   - Clearly describe the purpose of the PR and the changes you've made.
   - Make sure your code follows the project's coding conventions and guidelines.
   - Include any necessary documentation or tests for your changes.
-- Once approved, these changes will then be made part of our project. 
+- Once approved, these changes will then be made part of our project.
+## Contributors
+
+1. Mayur Gianchandani (mayur.gianchandani@durham.ac.uk)
+2. Yifan Yang (tphq81@durham.ac.uk)
+3. Junjie Liang (rqht44@durham.ac.uk)
+4. Tianyi Lyu (jfrk79@durham.ac.uk)
