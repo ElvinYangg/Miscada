@@ -79,6 +79,11 @@ This project has been built to run on the latest-version of Ubuntu.
 4. Run through the tests.
 
 Optionally, if you are using an IDE or environment that is Github CodeQL compatible, you may get additional functionality such as code analysis and the ability to scan for vulnerabilities in the codebase. (https://github.com/github/codeql)
+## Implementations currently in progress
+We have been working on a few features to add, some of which are in the final stages of testing before they are pushed into this repository. THe team currently plans to implement:
+- A simulation of reaction-diffusion. (Stage: Prototype ready, in final stages of testing)
+- A GUI that allows the user to control the inputs instead of having defined values in code. 
+- A docker containerization of the project. 
 
 ## Contribution Guidelines
 We encourage community participation in our efforts to build this Gray-Scott simulation, and are interested in learning about prospects and ideas that may not have been implemented here. Whether you have ideas on an eddicient build system, or bugs and shortcomings of our code, or just feature improvements, our team values any input. 
